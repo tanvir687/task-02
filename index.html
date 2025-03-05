@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <img src="./image/Ict01.png" alt="Ict bd" width="200px" />
+
+      <img
+        src="./image/e-learning01.png"
+        alt="E-LEARNING"
+        width="200PX"
+        height="118PX"
+      />
+    </header>
+    <br />
+    <hr />
+    <br />
+    <!-- header end -->
+    <!-- navbar start -->
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Course Module - 2025</a>
+      <a href="#">Class Schedule</a>
+      <a href="#">Success story</a>
+      <a href="#">Attendence</a>
+      <a href="#">FAQ</a>
+      <a href="#">Login</a>
+    </div>
+    <br />
+    <!-- navbar end -->
+    <!-- main start  -->
+    <div class="main-container">
+      <h2>Student Registration Form</h2>
+      <hr />
+      <br />
+      <h3>Please Enter Relavent Information</h3>
+      <br />
+      <h5>Mandatory Field*</h5>
+      <form action="/action.php">
+        <div class="s-from">
+          <!-- left form  -->
+          <div class="left-form">
+            <h3>
+              District
+              <span>(Institute District: Where You Want To DO Your Course)*</span>
+            </h3>
+            <select class="left-form-body">
+              <option value="seclect-one" disabled selected>
+                --Seclect One--
+              </option>
+              <option value="dhaka">Dhaka</option>
+              <option value="munshiganj">Munshiganj</option>
+              <option value="vhola">vhola</option>
+              <option value="pabna">Pabna</option>
+            </select>
+            <br />
+            <br />
+            <h3>Cource</h3>
+            <select class="left-form-body">
+              <option value="seclect-one" disabled selected>
+                --Seclect One--
+              </option>
+              <option value="Html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="js">Js</option>
+              <option value="node-js">NODE Js</option>
+            </select>
+            <br />
+            <br />
+  
+            <label for="text">Student Name</label><br />
+            <input
+              type="text"
+              name=""
+              id="text"
+              placeholder="Entre Your Full Name"
+              class="left-form-body"
+            />
+            <br /><br />
+            <label for="fname">Father Name</label><br />
+            <input
+              type="text"
+              name=""
+              id="fname"
+              placeholder="Enter Your Father Name"
+              class="left-form-body"
+            />
+            <br /><br />
+            <label for="mname">Mother Name</label><br />
+            <input
+              type="text"
+              name=""
+              id="mname"
+              placeholder="Enter Your Mother Name"
+              class="left-form-body"
+            />
+            <br /><br />
+  
+            <h3>Date Of Birth*</h3>
+            <select class="day">
+              <option value="day" disabled selected>--Day--</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+            </select>
+  
+            <select class="month">
+              <option value="month" disabled selected>--Month--</option>
+              <option value="jan">jan</option>
+              <option value="feb">feb</option>
+              <option value="march">march</option>
+              <option value="april">april</option>
+              <option value="may">may</option>
+              <option value="june">june</option>
+            </select>
+  
+            <select class="year">
+              <option value="month" disabled selected>--Year--</option>
+              <option value="2025">2025</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+            </select>
+            <br /><br />
+  
+            <div class="gender">
+              <h3>Gender*</h3>
+              <label for="mail">Mail</label>
+              <input type="radio" name="gender" id="mail" />
+              <label for="femail">femail</label>
+              <input type="radio" name="gender" id="femail" />
+            </div>
+            <br />
+            <div class="p-handicapped">
+              <h3>Physical Handicapped*</h3>
+              <label for="yes">Yes</label>
+              <input type="radio" name="gender" id="yes" />
+              <label for="no">No</label>
+              <input type="radio" name="gender" id="no" />
+            </div>
+            <br />
+            <label for="email">Email*</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="Enter Your Email"
+              class="left-form-body"
+            />
+            <p>(e.g:example@gmail.com)</p>
+            <br />
+            <label for="phone">Phone(Must be 11 digit)*</label>
+            <input
+              type="number"
+              name=""
+              id="phone"
+              placeholder="Enter Your Number"
+              class="left-form-body"
+            />
+            <p>(e.g:01733333333)</p>
+          </div>
+          <!-- right form  -->
+          <div class="right-form">
+            <label for="identity">Identification Type*</label>
+            <br />
+            <select name="right-form-body" id="" class="right-form-body">
+              <option value="seclect-one" disabled selected>
+                --Select One--
+              </option>
+              <option value="Student">Student</option>
+              <option value="job-holder">Job Holder</option>
+              <option value="house-wife">House wife</option>
+            </select>
+            <p>
+              Identification No. (Must be 10 digits for new NID or 17 digits for
+              old NID. If your National ID is 10 digits, then please add your
+              birth year with the ID as prefix. Example: 1980XXXXXXXXX)*
+            </p>
+            <input
+              type="number"
+              name=""
+              id=""
+              placeholder="Enter Your NID/B.reg number"
+              class="right-form-body"
+            />
+            <br /><br />
+  
+            <label for="homedistrict">Home District*</label>
+            <br />
+            <select name="right-form-body" id="" class="right-form-body">
+              <option value="seclect-one" disabled selected>
+                --Select One--
+              </option>
+              <option value="dhaka">Dhaka</option>
+              <option value="vhola">vhola</option>
+              <option value="narayanganj">Narayanganj</option>
+            </select>
+            <br /><br />
+            <label for="upazila">Upazila*</label>
+            <br />
+            <select name="right-form-body" id="" class="right-form-body">
+              <option value="seclect-one" disabled selected>
+                --Select One--
+              </option>
+              <option value="lokkibazar">Lokkhi Bazar</option>
+              <option value="madri">Madri</option>
+              <option value="narayanganj-sodor">Narayanganj Sodor</option>
+            </select>
+            <br /><br />
+            <label for="address">Village/House No./Road No./Other</label>
+            <input
+              type="text"
+              name=""
+              id="address"
+              placeholder="Enter your Address"
+              class="right-form-body"
+            />
+            <br /><br />
+            <label for="address">Post Office*</label>
+            <input
+              type="text"
+              name=""
+              id="address"
+              placeholder="Enter your Address"
+              class="right-form-body"
+            />
+            <br /><br />
+            <label for="qualification"
+              >Educational Qualification* (Higher Level)</label
+            >
+            <select
+              name="right-form-body"
+              id="qualification"
+              class="right-form-body"
+            >
+              <option value="seclect-one" disabled selected>
+                --Select One--
+              </option>
+              <option value="hsc">HSC</option>
+              <option value="diploma">Diploma</option>
+              <option value="graduation">Graduation</option>
+            </select>
+            <br /><br />
+            <div class="right-form-radio">
+              <h3 for="radio">Have any computer?*</h3>
+              <label for="radio">Yes</label>
+              <input type="radio" name="computer" id="radio" />
+              <label for="radio">No</label>
+              <input type="radio" name="computer" id="radio" />
+              <br><br>
+            </div>
+            <label for="file">Photograph*</label><br>
+            <input type="file" name="" id="file">
+            <p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+  
+            <label for="signature">Signature*</label><br>
+            <input type="file" name="" id="signature">
+            <p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+          </div>
+        </div>
+      </form>
+    </div>
+    <input type="button" value="Submit" class="submit">
+    <!-- main end -->
+  </body>
+</html>

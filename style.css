@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 80%;
+    position: relative;
+    align-items: center;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.ictbd{
+    background-image: transparent;
+}
+.elearning{
+    background: transparent;
+}
+.navbar a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    padding-left: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* main section  */
+.s-from{
+    display: flex;
+    justify-content: space-between;
+}
+.main-container h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(249, 146, 0);
+}
+.main-container h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.left-form{
+    width: 48%;
+}
+.left-form span{
+    font-size: 10px;
+}
+.left-form-body{
+    width: 100%;
+    padding: 5px;
+}
+.left-form-body option{
+    width: 100%;
+    
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.day{
+    width: 32%;
+    padding: 5px;
+}
+.month{
+    width: 32%;
+    padding: 5px;
+}
+.year{
+    width: 32%;
+    padding: 5px;
+}
+.gender label{
+    padding-left: 30px;
+}
+.gender{
+    display: flex;
+}
+.p-handicapped{
+    display: flex;
+}
+.p-handicapped label{
+    padding-left: 1px;
+}
+
+.right-form-body{
+    width: 100%;
+    padding: 5px;
+}
+.right-form{
+    width: 50%;  
+}
+.right-form p{
+    font-size: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    line-height: 15px;
+}
+.right-form-radio{
+    display: flex;
+}
+.right-form-radio label{
+    padding-left: 10px;
+}
+.submit{
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgb(254, 179, 75);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
